@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>RMC, INC.</title>
+        <link rel="stylesheet" href="main_css.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <header>
+            <a class="title" >RIGOROUS MATHMATICAL CONTRACTORS, INC</a>
+            <nav>
+                <ul class="nav_links">
+                    <li><a href="main.html">HOME</a></li>
+                    <li><a href="Portfolio.html">PORTFOLIO'S</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                </ul>
+            </nav>
+            <a class="cta" href="contact.html"><button>CONTACT</button></a>
+        </header>
+        <h1>FISH.NET - FISH HARVESTING</h1>
+        <div class="report">
+            <p>
+                First described by economist William Forster Lloyd in 1833 in a discussion about overgrazing cattle,
+                <br>the Tragedy of the Commons was born. Garrett Hardin, roughly one-hundred years later, revised the
+                <br>concept to describe the phenomena that occur when a limited resource is shared and harvested at 
+                <br>different rates. The basic concept is that there is a limited resource that is being harvested and 
+                <br>is of popular demand. Being limited, that resources holds a threshold at which it can be harvested 
+                <br>without complete and immediate depletion.
+                <br>
+                <br>Several businesses today struggle in maintaining this threshold and understanding the effect of their
+                <br>harvesting rates on that threshold. More specifically it can be difficult to understand how under 
+                <br>harvesting compares to over-harvesting and what can be done to recover from these situations.
+                <br>
+                <br>Previously, we have worked personally with a fish hatchery that undergoes this phenomenon consistently.
+                <br>From that experience, we were able to develop a differential equation [Figure 1.1] to model what that 
+                <br>hatchery’s fish population, P, would look like over a significant amount of time, t, where the population 
+                <br>is in thousands and time is in years. 
+                <br>
+                <br><img src="EQ(1).png" style="margin-left: 400px;">
+                <br>
+                <br>Recently, the owners of Fish.net purchased this hatchery with the intention of allowing fishing to the 
+                <br>public. Being inexperienced with hatcheries and how harvest rates can dramatically affect population, the 
+                <br>hatchery’s population was fluctuating fast. Upon seeing our previous success with the hatchery, the owners 
+                <br>of Fish.net decided to reach out to us for assistance in repairing the population loss to the hatchery.
+                <br>
+                <br><img src="EQ(2).png" style="margin-left: 400px;">
+                <br>
+                <br>In tackling this problem, we began by altering our model equation to incorporate harvesting, k [Figure 1.2]. 
+                <br>In order to analyze and understand properly how the population changed, we investigated their previous 
+                <br>harvesting rates and the effect each one had on the population of fish. From that investigation, we were able 
+                <br>to come to a solution on how to restore the initial population.
+                <br>
+                <br>After significant communication with the owners of Fish.net, they agreed on our model equation [Figure 1.2] 
+                <br>as it related to their business decisions. Upon agreeing with that model, they informed us that they initially 
+                <br>allowed a harvesting rate of 12 (k=12). Upon plugging in the determined value for the harvesting rate, we were 
+                <br>left with a quadratic equation.
+                <br>
+                <br><img src="EQ(3).png" style="margin-left: 400px;">
+                <br>
+                <br>Given that the equation models the rate at which population changes, if we set the quadratic equal to zero and 
+                <br>solve for population, P, we are therefore able to see where the population plateaus for different initial 
+                <br>conditions. Given that the model is a quadratic, we can simply plug it into the quadratic formula to get our 
+                <br>solution.
+                <br>
+                <br><img src="EQ(4).png" style="margin-left: 400px;">
+                <br>
+                <br>Given these values, we know how the population remains unchanged at those values, but we don’t know the behavior 
+                <br>around those values. To easily view this behavior, we can graph our model equation with the given harvesting rate 
+                <br>[Figure 1.3].
+                <br><img src="Figure1-3.png" style="width: 500px;margin-left: 275px;padding-top: 20px;">
+                <br><a style="margin-left: 435px;font-size: 10px;">[Figure 1.3](desmos.com)</a>
+                <br>
+                <br>It is clear to see that with this harvesting rate if the initial population was less than 10,000 fish, the 
+                <br>population would decrease until the population was completely depleted. In the event that the population lies 
+                <br>somewhere between 10,000 and 15,000 fish, the population would grow logistically approaching a plateau of 15,000 
+                <br>fish. Finally, if the population lies anywhere above 15,000 fish, the population will decrease and over a significant 
+                <br>amount of time slowly approach a plateau at 15,000 fish. This can be visualized in the following graph [Figure 1.4].
+                <br><img src="Figure1-4.png" style="width: 500px;margin-left: 275px;padding-top: 20px;">
+                <br><a style="margin-left: 435px;font-size: 10px;">[Figure 1.4](desmos.com)</a>
+                <br>
+                <br>For the first few years, the harvesting rate of 12 was working well and Fish.net was making a good profit and the 
+                <br>population was remaining stable. To capitalize on their success, they decided to increase the harvesting rate by a 
+                <br>minor amount. To determine the effect that the new harvesting rate would have on the fish population we followed the 
+                <br>same process we did previously.
+                <br>
+                <br><img src="EQ(5).png" style="margin-left: 400px;">
+                <br>
+                <br>Given that when solving for when the population is not growing results in a nonreal answer means that the population 
+                <br>is always growing or always decreasing. To tell what is happening in this case, a graph of the modified model will 
+                <br>make it clear [Figure 1.5]. 
+                <br><img src="Figure1-5.png" style="width: 500px;margin-left: 275px;padding-top: 20px;">
+                <br><a style="margin-left: 435px;font-size: 10px;">[Figure 1.5](desmos.com)</a>
+                <br>
+                <br>After viewing the graph, it is clear that no matter what the fish population is initially, it will decrease and if 
+                <br>allowed to decrease long enough, the population will be depleted.
+                <br>
+                <br>The owners of Fish.net became aware of the depleting population when it fell to only 5,000 fish. In fear that the 
+                <br>population would quickly be gone, but also not wanting to halt business, returned to the harvesting rate of 12. After 
+                <br>realizing this did not solve the issue they panicked further as the population fell to 4,000 fishes. It was at this 
+                <br>point that Fish.net reached out to us for help in restoring the fish population. We assured them that there was an easy 
+                <br>solution although it may damage their business’s income temporarily.
+                <br>
+                <br>Before we can determine a new harvesting rate that would allow the business to continue without depleting the hatchery, 
+                <br>we must first understand why the population continued to decrease. Looking back at the model created with a harvesting 
+                <br>rate of 12, recall that there were two points at which the population would not change. Those two values were when the 
+                <br>population was equal to 10,000 and when the population was equal to 15,000. We followed up this discovery by determining 
+                <br>the behavior around these population sizes. When the initial population was below 10,000, we saw a trend in population 
+                <br>decease and when considering that our new initial condition for this harvesting rate is less than 10,000, it makes sense 
+                <br>that our population would decrease further.
+                <br>
+                <br>Now we are in the situation of determining what new harvesting rate can we apply to our initial population of 4,000, 
+                <br>which would have a trend in increasing population. In order to answer this question optimally, we can create a bifurcation 
+                <br>graph to represent every harvesting rate. In creating a bifurcation graph, we allow the x-axis to be k, our harvesting rate, 
+                <br>and our y-axis to be P, the population of fish. Recall in comparing harvesting values to the population we set our rate of 
+                <br>change model equal to zero after plugging in our value for k. If we set our model to zero without plugging in any values 
+                <br>for k, we are left with an equation, in terms of k and P, what the population will plateau at for different values of k.
+                <br>
+                <br><img src="EQ(6).png" style="margin-left: 350px;">
+                <br>
+                <br>If we graph the new model equation [Figure 1.6], we can better visualize optimal harvesting rates.
+                <br><img src="Figure1-7.png" style="width: 500px;margin-left: 275px;padding-top: 20px;">
+                <br><a style="margin-left: 435px;font-size: 10px;">[Figure 1.7](desmos.com)</a>
+                <br>
+                <br>Finally, in getting a new harvesting rate that would allow the population to restore, we graph the line P = 4 in order to 
+                <br>find the intersection point with the bifurcation. Since the bifurcation line tells us points in which the population is not 
+                <br>changing, the intersection point tells us that for a certain harvesting rate k, the population will remain 4,000 forever. 
+                <br>Since we want to eventually restore the population, we will choose any k value less than that intersections k value. Since the 
+                <br>k value at that intersection is 6.72, we now know that as long as less than 6,720 fish are harvested each year the population 
+                <br>will experience a trend to increase. Additionally, by examining the upper plateau, we can see if they dropped the harvesting 
+                <br>value below 6.72, the fish population has the potential raise to upwards of 21,000 or more, depending on the value for k. In 
+                <br>returning to the original business model, once the population surpasses 10,000 fishes, they can return to a harvesting value 
+                <br>of 12. The size of the population beyond 10,000 is irrelevant in the long run because after a long time the population will 
+                <br>plateau at 15,000 fishes anyway. In concluding our work with Fish.net, it becomes clear that just because one harvesting rate 
+                <br>may work efficiently for one population, does not mean it will work the same for others. 
+            </p>
+        </div>
+    </body>
+</html>
